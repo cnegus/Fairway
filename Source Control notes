@@ -1,0 +1,19 @@
+Source/version control allows you to:
+  -revert back to old coade
+  -recover code
+  -make multiple versions
+  -compare two versions of code
+  -prove a change helped
+  -looked  back at change history
+  -change another's code
+  -share your own code
+  -track when work is being done and by who
+  -experiment without harming working code
+  
+Version control is a system that records changes to a file or set of files 
+over time so you can recall specific versions later
+
+VCS- version control system
+
+local vcs- all versions stored in a directory
+centralized vcs- central database has all versions; is accessible by multiple users for collaboration purposes
