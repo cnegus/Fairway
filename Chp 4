@@ -1,1 +1,70 @@
- 
+Standup Mtg Everyday (scrum)
+ -keeps everyone in the loop
+the meetings should:
+ -track progress
+ -update burn-down rate
+ -update tasks
+ -talk about what happened yesterday and what's going to happen today
+ -bring up any issues
+ -last btwn 5 and 15 minutes
+UML:
+ -unified modeling language
+  -used to convey important details about code to applications structure
+  -a class diagram describes the static structure of your classes
+Association
+  -where one class is made up of obects of another class
+Inheritance
+  -when a class inherits from another class
+
+Sequence Diagrams:
+ -to show how classes work together, use a UML sequence diagram
+  -a visual way to show the order of events that happen
+Standup meetings are about progress problematic issues, and updating your board
+Once tasks are completed they can more to the complete column
+
+Stand up mtgs
+ -not necessarily actually standup
+ -max 15 min
+ -two agenda items
+If an issue arises that requires more than 15min discussion, 
+schedule a longer meeting just for that isue
+ -should be first thing in the morning
+end of each week: update progress board
+ -prepare for week 2
+
+DEALING WITH LAST MEETING REQUESTS:
+You have to track unplanned tasks
+Use red cards on unplanned tasks
+ -bottom of board
+ -move to In Progress only where in progress
+An unplanned task is still a task; it has to be tracked,
+put in progress, completed, and included in the burndown
+rate just like EVERY OTHER TASK YOU HAVE
+
+Talk to the customer after unplanned tasks are requested
+
+The customer sets priorities not the devloper
+-ask what takes priority
+-the customer needs to understand what will happen
+You may have to move stuff around
+Float--the "extra" days--disappear quickly
+
+float is in work time, not actual time
+Recalculate velocity at beginning of each iteration
+
+Velocity is the measure of hours fast you and your team work
+VELOCITY IS NOT
+-substitute for good estimation; it's a way of factoring in the real-world
+performance of you and your team
+-whether or not you're on track velocity burndown wise, its alright because the customer 
+knows where you are and hopefully they're okay with that.
+
+You also know whether you are and your team is all on the same page
+*Successful software development is about knowing where you are*
+
+With an understanding of your progress and challenges, you can keep the customer in the loop and 
+develop software when it's needed.
+
+Velocity is a retrospective player
+
+
