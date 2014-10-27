@@ -1,1 +1,62 @@
+How to make sure new developers know what to do
+SOFTWARE MUST BE USABLE
+-good code is easy to use as well as to get
+When someone wants to run your project, its not just compiling code--
+they need to build the project
+
+Building a project involves:
+ -finding dependencies
+ -packaging up your project into a usable project
+ --and more
+Building a project is the perfect candidate for "automation"
+ANT: A tool built for Java projects
+ -compiles code, create and delete directories, even package up files for you
+ -centers around a "build script"
+The steps to build a file are all put into build xml and its called a build script
+
+What's needed to build your project is broken up into steps called targets
+ -each target can have more than one task
+An ANT build file is broken into four basic chunks:
+1.Projects
+ -everything in your build file is part of a single project
+  -your project should have a name a default target to run when the script is run
+2. Properties
+ -ant properties are a lot like constants. They let you refer to values
+ in the script, but you can change those values in a strange place
+3. Targers
+ -You can group different actions into a target, which is just a set of work
+ for example, you might have a compile target for compilation, and an imit target
+ for setting up your projects directory structure
+ 4. Tasks
+  -tasks are the work horses of your build script. A task in ANT usually maps to a specific
+  command, like javac, mkdir, or even javadoc
  
+The syntax is particular to ANT, but the principles work with all 
+build tools, in any language
+Most build tools are easy to learn
+ -they also help you get things done faster, especially if 
+ you have a lot of projects
+ -the build tool is for your team, not just you
+  -A build script captures the details the developers
+  -probably don't need to know right from the start
+  about how to comile and package an application
+ Good build scripts
+  -generate documentation
+  -compile your project
+  -clean up the mess they make
+ Good build scripts go BEYOND the basics
+  -Reference libraries your project needs
+Good build scripts go BEYOND the basics
+1. Reference libraries your project needs
+ -you can create libraries
+2.Run your application
+ -for times when building the proect is more than
+ just compiling code
+3. Generate documentation
+4. Check out code, run tests, copy builds, encrypt files, email when build finishes
+execute SQL, etc
+ -tons more
+Annotation lets you focus on code, not repetitive tasks;
+ -a good build script you can automate a complicated build process
+In such cases, you may want to consider a master build file or bootstrap script
+that ties everything together
