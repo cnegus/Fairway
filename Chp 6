@@ -119,3 +119,23 @@ VERSION CONTROL DOESN'T
 -tests code
 -thinks for you
 -makes sure your code is readable and well-written
+
+DEVELOPMENT TECHNIQUES
+-use a version control tool to track and distribute changes in your software to
+your team
+-use tage to keep track of major milestones in your project (ends of
+iterations, releases, bug fixes, etc)
+-use branches to maintain a separate copy of your code, but only branche if absolutely
+necessary
+DEVELOPMENT PRINCIPLES
+-always kown where changes should (and shouldn't) go
+-know what code went into a given release--and be able to get to it again
+-control code change and distribute
+
+MISC
+-back up your version control repository
+-Always have good commit message; you and your team will appreciate it later
+-use tags liberally
+-commit frequently and be careful about breaking other people's code
+-there are lots of GUI tools for version control systems 
+they help a lot with merges and dealing with conflicts
