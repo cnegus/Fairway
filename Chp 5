@@ -1,0 +1,53 @@
+Getting it done with great design
+
+Well-designed classes are singularly focuse
+^this despign follows the single responsibility principle (SRP)
+
+SINGLE RESPONSIBILITY PRINCIPLE
+  -Every object in your system should have a single
+  responsibility and all the obect's services
+  should be focused on carrying out that single
+  responsibility
+  
+You've inplemented the single responsibility principle correctly when each of 
+your obects has only one reason to change
+Test to see if you're using SRP:
+  1. On a sheet of paper, write down a bunch of lines like this:
+  The ______  ________ itself
+  Have a line for every method in the class you're testing for SRP
+  2. On the first blank of each line, write the class name.
+  In the second blank, write down one of the methods in the class
+  3. Read each line out louad. Does what you just said makes sense
+  
+If what you're just said doesn't make sense, then you're probably violating
+the SRP with that method. The method might belong in a different class---think 
+about moving the method
+
+Going from multiple respsonsibility to single responsibility
+The SRP is all about responsibility
+and which objects in your system do what 
+
+You want each obect that you design to have just one responsibility
+to focus on---and when something about that responsibility changes
+you'll know where to look. You'll also avoid ripple-effect, where one small
+change to your software can cause a ripple of changes throughout your code
+
+DRY principle
+Don't Repeat Yourself:
+  -Avoid duplicate code by abstracting or separating our things
+  that are common and placing those things in a single location
+DRY is about having each piece of information and behavior in your
+system in a single, sensible place
+A great design helps you be more PRODUCTIVE as well as making your 
+software more FLEXIBLE
+
+Unplanned tasks are dealt with the same way as normal tasks;
+planned, in progress, then completed
+It doesn't matter how a task starts out. Once it's on your board,
+it's got to be assigned, estimated, and worked on until its complete
+
+Your estimates should be complete
+  -when you're estimating your tasks, you should come up with the time
+  it takes to complete the task----and sometimes that involves more than just code
+If you've got to demo the code on meet with a stakeholder, include time for these activities too.
+
